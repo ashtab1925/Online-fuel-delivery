@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login Page</title>
+<style>
+body{
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 
+255, 0.3)), url("n1.png");
+background-repeat: no-repeat;
+background-size: 100% 150%;
+color: white;
+}
+#header{
+position: absolute;
+width: 100%;
+top: 0px;
+left: 0px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #5E5B87;
+}
+ul li{
+display: inline-block;
+margin: 0px 30px;
+}
+#body{
+height: 600px;
+width: 100%;
+}
+#footer{
+height: 70px;
+width: 100%;
+}
+a{
+text-decoration: none;
+color: white;
+}
+#box{
+border-radius: 20px;
+height: 900px;
+width: 1200px;
+margin-top: 50px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.box{
+margin: 100px;
+}
+.newuser{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 5px 5px;
+}
+.container {
+  padding: 20px;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.modal {
+  display: flex;
+  position: relative;
+  left: 0%;
+  top: 80px;
+  width: 30%;
+  height: 50%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 0px;
+}
+.user{
+position: relative;
+left: -36%;
+font-size: 20px;
+
+}
+.email{
+position: relative;
+left: -41%;
+font-size: 20px;
+
+}
+.word{
+position: relative;
+left: -37%;
+font-size: 20px;
+
+}
+#footer{
+	position: fixed;
+	bottom: 0px;
+	text-align: left;
+	padding-top: 2px;
+	background-color: gray;
+	height: 50px;
+	left: 0px;
+}
+.copy{
+position: fixed;
+left: 10px;
+}
+.last{
+position: fixed;
+right: 0px
+}
+.hh{
+font-size: 30px;
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<image src="n2.png" height="100px" width="100px"></image>
+<h1>ONLINE FUEL DELIVERY</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Login.html">Customer Login</a></li>
+<li><a href="register.html">Customer Register</a></li>
+<li><a href="https:wa.me/919989114207"> <image src="phone-call.png" height="30px" width="30px"></image></a> </li>
+</ul>
+</div>
+<div id="body">
+<center>
+<div id="box">
+<div id="id01" class="modal">
+ <div class="container">
+ 	<p class="hh">Login Here</p>
+<form>
+			<label class="user" >UserName</label>
+			<input type="text" name="UserName" required placeholder="Enter Your UserName" >
+			<label class="email" >Email</label>
+			<input type="email" name="Email" placeholder="Enter Your Email" required>
+			<label class="word">Password</label>
+			<input type="Password" name="Password" required placeholder="Enter Your Password" >
+			<button type="submit">Login</button>
+			<span class="psw"> New User?  <a href="register.html">Register Here!!</a></span>
+
+
+		</form>
+</div>
+</div>
+</div>
+</center>
+</div>
+<div id="footer">
+	<p class="copy">&copy; 2024 My Website. All rights reserved.</p>
+	<ul class="last">
+		<li><a href="https:wa.me/919989114207">Contact Us</a></li>
+		<li> <a href="mailto:yenagandula.narendra@gmail.com">Email</a></li>
+		<li><a href="prp.html">Privacy Policy</a></li>
+	</ul>
+</div>
+</body>
+</html>
